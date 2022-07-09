@@ -1,0 +1,316 @@
+.third-div{
+    display: grid;
+    grid-template-rows: 550px;
+    background-color: #fbfbfd;
+    
+    background-image: url(./Gallery/iphone13.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position-x: 178px;
+    background-position-y: -70px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.third-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h2div{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    color: #1d1d1f;
+    margin-top: -355px;
+    margin-bottom: 10px;
+    padding-left: 645px;
+
+}
+.h2divbuy{
+    padding-left: 10px;
+
+}
+.thirdhead1{
+    font-size: 25px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    padding-top: 7px
+
+}
+.thirdhead2{
+    color: #06c;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.thirdhead2:hover{
+    text-decoration: underline;
+}
+.fourth-div{
+    display: grid;
+    grid-template-rows: 550px;
+    background-color: #fbfbfd;
+    
+    background-image: url(./Gallery/watch\ image.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position-x: 241px;
+    background-position-y: -61px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    
+}
+.fourth-div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+.watchlogo{
+    width: 160px;
+    padding-left: 600px;
+    margin-top: -355px;
+    margin-bottom: 10px;
+    padding-left: 675px;
+}
+.fifth-div{
+    display: grid;
+    grid-template-rows: 550px;
+    background-color: #f3f5f5;
+    
+    background-image: url(./Gallery/apple\ mixed.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    background-position-x: 241px;
+    background-position-y: -61px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.fifthhead{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 1.08349;
+    letter-spacing: -.002em;
+    margin-top: 55px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.grid1{
+    display: grid;
+    grid-template-areas: "h1 h"
+                         "w2 w"
+                         "f4 f"
+                         "footer footer";
+    grid-template-columns: 1fr 1fr;
+    height: 550px;
+
+}
+.footer{
+    grid-area: footer;
+    display: grid;
+    padding-left: 229px;
+    padding-right: 271px;
+    width: 1013px;
+}
+.macbookair{
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/mac13.png);
+    background-repeat: no-repeat;
+    background-position-x: 127px;
+    background-position-y: -24px;
+    background-color: #fbfbfd;
+    background-size: contain;
+    cursor: pointer;
+}
+.macbookhead1,.iphonehead{
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 47px;
+}
+.macbookhead2{
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    text-align: center;
+    color: #86868b;
+    margin-top: 6px;
+    margin-bottom: 8px;
+}
+.macbookhead3{
+    color: #06c;
+    padding-left: 279px;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    text-decoration: none;
+}
+.macbookhead4{
+    color: #06c;
+    padding-left: 10px;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+
+.iphone{
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/iphone.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 127px;
+    background-position-y: -24px;
+    background-color: #fbfbfd;
+    background-size: contain;
+    cursor: pointer;
+}
+.iphonehead1{
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.macbook13{
+    height: 550px;
+    margin-right: 10px;
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/macbook13.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: 72px;
+    background-color: #000000;
+    background-size: contain;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+
+}
+.macbook-13-head{
+    color: #f5f5f7;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 47px;
+}
+.ipad-air{
+    height: 550px;
+    margin-right: 10px;
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/ipad.jpg);
+    background-repeat: no-repeat;
+    background-position-x: 88px;
+    background-color: #000000;
+    background-size: contain;
+    cursor: pointer;
+}
+.ipadpro-logo{
+    margin-left: 311px;
+    margin-top: 59px;
+
+}
+.ipadhead{
+    color: #f5f5f7;
+    font-size: 16px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .002em;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.arcade{
+    height: 550px;
+    margin-right: 10px;
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/arcade\ mobile.jpg);
+    background-repeat: no-repeat;
+    background-position-x: -14px;
+    background-color:#fff;
+    background-size: cover;
+    cursor: pointer;
+    background-position-y: -95px;
+}
+.arcadehead{
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 400;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    text-align: center;
+}
+.arcade-logo{
+    margin-left: 296px;
+    margin-top: 59px;
+    width: 133px;
+    margin-top: 12px;
+}
+.tv{
+    height: 550px;
+    margin-right: 10px;
+    height: 550px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-image: url(./Gallery/tv\ mon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.tv-apple-logo{
+    margin-left: 338px;
+    margin-top: 74px;
+}
+.tv-allforman{
+    padding-left: 255px;
+    padding-top: 302px;
+
+}
+.tv-mars{
+    padding-left: 313px;
+    padding-top: 10px;
+}
+.tv-head{
+    
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400
+}
+.tvhead{
+    text-align: center;
+}
+
+
+
+
+
+   

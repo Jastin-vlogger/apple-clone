@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background-color: #fff;
+    height: auto;
+}
+.top-div{
+    width: 100%;
+    height: 50px;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+   
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    vertical-align: top;
+    align-items: center;
+
+}
+.apple-logo{
+    margin-right: 44px;
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #d0dfe2;
+    cursor: pointer;
+    margin-top: 4px;
+}
+.list{
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #d0dfe2;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+}
+
+.search-logo{
+    height: 14px;
+    margin-top: 17px;
+    color: #d0dfe2;
+
+}
+.cart-logo{
+    margin-right: 44px;
+    font-size: 12px;
+    line-height: 3.66667;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #d0dfe2;
+    cursor: pointer;
+    margin-top: 4px;
+
+}
+.top-div2{
+    background-color: #f4f4f4;
+    height: 44px;
+    padding-top: 50px;
+}
+.para1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    display: inline-block;
+    padding: 12px 0;
+    color: #7b7b7d;
+    margin-left: 374px;
+}
+.para1last{
+    cursor: pointer;
+}
+.para1last:hover{
+    text-decoration: underline;
+}
